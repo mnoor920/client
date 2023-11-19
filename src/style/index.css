@@ -464,3 +464,7 @@ nav {
 .services_card .product_card:hover .over_lay button {
     display: block;
 }
+
+.icons_wifi {
+    margin: 100px;
+}
