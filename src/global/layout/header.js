@@ -1,5 +1,8 @@
 import React from 'react'
 import Logo from '../../assets/images/logo.svg'
+import { FaBars } from 'react-icons/fa'
+import { MdCall } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -7,24 +10,30 @@ const Header = () => {
             <header>
                 <div className="page_width">
                     <nav>
+                        <div className="bar_icon">
+                            <FaBars />
+                        </div>
                         <div className="logo">
                             <img src={Logo} alt="" />
                         </div>
                         <div className="nav_link">
                             <ul>
                                 <li>
-                                    <a href>Home</a>
+                                    <Link to="/" >Home</Link>
                                 </li>
                                 <li>
-                                    <a href>About</a>
+                                    <Link to="/about_us">About</Link>
                                 </li>
                                 <li>
-                                    <a href>Service</a>
+                                    <Link to="/contact_us">Service</Link>
                                 </li>
                                 <li className>
-                                    <a href> <img src alt="" /> +9209000000000</a>
+                                    <a href> <MdCall /> <span>+9209000000000</span></a>
                                 </li>
                             </ul>
+                        </div>
+                        <div className="icons_call">
+                            <MdCall />
                         </div>
                     </nav>
                 </div>

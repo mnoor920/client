@@ -1,0 +1,39 @@
+/* footer responsive */
+@media screen and (max-width:768px) {
+    .outer_footer {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media screen and (max-width:815px) {
+
+    .bar_icon {
+        display: block;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .nav_link ul li {
+        display: none;
+    }
+
+    .icons_call {
+        display: block;
+    }
+
+    .banner_inner .right_side {
+        display: none;
+    }
+
+    .banner_inner .left_side {
+        width: 100%;
+    }
+
+    .banner_section {
+        background: url("https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+}

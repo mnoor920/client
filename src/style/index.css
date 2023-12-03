@@ -18,6 +18,15 @@ nav {
     align-items: center;
 }
 
+
+.bar_icon {
+    display: none;
+}
+
+.icons_call {
+    display: none;
+}
+
 .nav_link li {
     list-style: none;
     display: inline-block;
@@ -380,11 +389,11 @@ nav {
     font-weight: 700;
 }
 
-.services_card {
+/* .services_card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-}
+} */
 
 .services_card .product_card {
     border-radius: 30px;
