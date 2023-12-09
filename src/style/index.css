@@ -477,3 +477,22 @@ nav {
 .icons_wifi {
     margin: 100px;
 }
+
+
+.contact_us {
+    padding: 50px 0px;
+}
+
+.form_row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.form_row input {
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    border: 2px solid #E4E4E4;
+    padding: 20px;
+}
